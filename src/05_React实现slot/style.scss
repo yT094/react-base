@@ -1,0 +1,16 @@
+.nav-bar {
+  display: flex;
+  text-align: center;
+  
+  .left,.right {
+    width: 44px;
+    height: 44px;
+    background: skyblue;
+  }
+
+  .center {
+    flex: 1;
+    background: pink;
+  }
+  line-height: 44px;
+}
